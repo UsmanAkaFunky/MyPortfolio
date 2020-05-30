@@ -50,27 +50,24 @@ body {
 
 /* Section About Styling */
 
-/* // Extra small devices (portrait phones, less than 576px) */
+/* ======================================================================== About */
 
-@media (max-width: 575.98px) {
-    .aboutMeBtn, .homeBtn, .slash {
+@media only screen and (max-width: 319.98px) {
+    a p, .slash {
         color: whitesmoke;
         text-decoration: none;
         text-transform: uppercase;
         font-family: bowl;
-        text-align: right;
-        font-size: 14px !important;
-    }
-    .active {
-        color: black;
+        text-align: center;
+        font-size: 16px !important;
     }
     .navButtons {
         margin-top: 8px;
         float: right;
-        margin-right: 30px;
+        margin-right: 100px;
     }
     .imgCoverDiv img {
-        width: 38%;
+        width: 40vw;
         position: absolute;
         top: 6px;
         left: 15px;
@@ -110,23 +107,47 @@ body {
     }
 }
 
-/* // Small devices (landscape phones, 576px and up) */
+/* =================================================================================== down - 320px */
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media only screen and (min-device-width: 320px) and (max-device-width: 374.98px) {
+    /* Styles */
+}
 
-/* // Medium devices (tablets, 768px and up) */
+/* =================================================================================== 320 - 375px */
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media only screen and (min-device-width: 375px) and (max-device-width: 424.98px) {
+    /* Styles */
+}
 
-/* // Large devices (desktops, 992px and up) */
+/* =================================================================================== 375 - 425px */
 
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media only screen and (min-device-width: 425px) and (max-device-width: 575.98px) {
+    /* Styles */
+}
 
-/* // Extra large devices (large desktops, 1200px and up) */
+/* =================================================================================== 425 - 576px */
 
-@media (min-width: 1200px) {}
+@media only screen and (min-device-width: 576px) and (max-width: 767.98px) {
+    /* Styles */
+}
 
-/* ======================================================================== About */
+/* =================================================================================== 426 - 767px */
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {}
+
+/* =================================================================================== 426 - 991px */
+
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* =================================================================================== 992-1200px */
+
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/* =================================================================================== 1200-1399px */
+
+@media only screen and (min-width: 1400px) and (max-width: 1599.99px) {}
+
+/* =================================================================================== 1400-1600px */
 
 /* ====================================================================================================*/
 
