@@ -34,6 +34,70 @@ body {
     color: crimson !important;
 }
 
+
+
+
+/* 
+=====================================================================================================================================================================
+=====================================================================================================================================================================
+=====================================================================================================================================================================
+=====================================================================================================================================================================
+*/
+
+@media (max-width: 374.98px) {.headerContainer {
+    height: 50px;
+    background-color: #f70000;
+    ;
+}
+.headerAnchors a, .headerAnchors p {
+    color: white;
+    font-family: bowl;
+    font-size: 12px;
+}
+.headerAnchors p {
+    color: white;
+    font-family: bowl;
+    font-size: 14px;
+}
+/* About me section  */
+.aboutTextContainer {
+    color: white;
+    margin: 8px 0px 0px 0px;
+}
+.aboutTextContainer h1 {
+    font-size: x-large;
+}
+.aboutTextContainer p {
+    font-size: 10px;
+}
+.nameContainer p.onlyA {
+    font-size: 180px;
+    position: absolute;
+    top: 70px;
+    color: rgba(163, 163, 163, 0.1);
+    font-family: aplha;
+    left: 250px;
+}
+div.statusContainer {
+    background-color: rgb(216, 191, 37, 0.1);
+    color: whitesmoke;
+    position: absolute;
+    top: 170px;
+    border: 2px dashed  rgb(216, 191, 37, 0.4);
+    text-align: center;
+    padding: 8px;
+
+    font-size: 12px;
+    left: 210px;
+}
+p.professionText{
+    font-size: 10px;
+}
+p span.nameHeading{
+    font-size: 12px;
+    font-family: bowl;
+}
+/* ================ */}
 /* 
 =====================================================================================================================================================================
 =====================================================================================================================================================================
@@ -43,7 +107,7 @@ body {
 
 /* // Extra small devices (portrait phones, less than 576px) */
 
-@media (max-width: 575.98px) {
+@media (min-width: 375px) and (max-width: 575.98px)  {
     .headerContainer {
         height: 50px;
         background-color: #d8bf25;
