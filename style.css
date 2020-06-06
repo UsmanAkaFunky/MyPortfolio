@@ -59,6 +59,9 @@ body {
         font-size: 14px;
     }
     /* About me section  */
+    .aboutContainer img {
+        src: url(images/ImageSm.png) !important;
+    }
     .aboutTextContainer {
         color: white;
         margin: 8px 0px 0px 0px;
@@ -71,11 +74,10 @@ body {
     .aboutTextContainer p {
         font-size: 10px;
     }
-    .aboutTextContainer hr{
+    .aboutTextContainer hr {
         background-color: #7a7a7a;
-      width: 30%;
-      margin: 0px 5px 5px  30px;
-      
+        width: 30%;
+        margin: 0px 5px 5px 30px;
     }
     .nameContainer p.onlyA {
         font-size: 180px;
@@ -132,6 +134,9 @@ body {
         font-size: 14px;
     }
     /* About me section  */
+    .aboutContainer img {
+        src: url(images/ImageSm.png) !important; 
+    }
     .aboutTextContainer {
         color: white;
         margin: 8px 0px 0px 0px;
