@@ -34,9 +34,6 @@ body {
     color: crimson !important;
 }
 
-
-
-
 /* 
 =====================================================================================================================================================================
 =====================================================================================================================================================================
@@ -44,60 +41,71 @@ body {
 =====================================================================================================================================================================
 */
 
-@media (max-width: 374.98px) {.headerContainer {
-    height: 50px;
-    background-color: #f70000;
-    ;
+@media (max-width: 374.98px) {
+    .headerContainer {
+        width: 105%;
+        height: 50px;
+        background-color: #d8bf25;
+        ;
+    }
+    .headerAnchors a, .headerAnchors p {
+        color: white;
+        font-family: bowl;
+        font-size: 12px;
+    }
+    .headerAnchors p {
+        color: white;
+        font-family: bowl;
+        font-size: 14px;
+    }
+    /* About me section  */
+    .aboutTextContainer {
+        color: white;
+        margin: 8px 0px 0px 0px;
+    }
+    .aboutTextContainer h1 {
+        font-size: x-large;
+        font-family: bowl;
+        color: #d8bf25;
+    }
+    .aboutTextContainer p {
+        font-size: 10px;
+    }
+    .aboutTextContainer hr{
+        background-color: #7a7a7a;
+      width: 30%;
+      margin: 0px 5px 5px  30px;
+      
+    }
+    .nameContainer p.onlyA {
+        font-size: 180px;
+        position: absolute;
+        top: 30px;
+        color: rgba(163, 163, 163, 0.1);
+        font-family: aplha;
+        left: 180px;
+    }
+    div.statusContainer {
+        background-color: rgb(216, 191, 37, 0.1);
+        color: whitesmoke;
+        position: absolute;
+        top: 140px;
+        border: 2px dashed rgb(216, 191, 37, 0.4);
+        text-align: center;
+        padding: 8px;
+        font-size: 8px;
+        left: 150px;
+    }
+    p.professionText {
+        font-size: 8px;
+    }
+    p span.nameHeading {
+        font-size: 10px;
+        font-family: lex;
+    }
+    /* ================ */
 }
-.headerAnchors a, .headerAnchors p {
-    color: white;
-    font-family: bowl;
-    font-size: 12px;
-}
-.headerAnchors p {
-    color: white;
-    font-family: bowl;
-    font-size: 14px;
-}
-/* About me section  */
-.aboutTextContainer {
-    color: white;
-    margin: 8px 0px 0px 0px;
-}
-.aboutTextContainer h1 {
-    font-size: x-large;
-}
-.aboutTextContainer p {
-    font-size: 10px;
-}
-.nameContainer p.onlyA {
-    font-size: 180px;
-    position: absolute;
-    top: 70px;
-    color: rgba(163, 163, 163, 0.1);
-    font-family: aplha;
-    left: 250px;
-}
-div.statusContainer {
-    background-color: rgb(216, 191, 37, 0.1);
-    color: whitesmoke;
-    position: absolute;
-    top: 170px;
-    border: 2px dashed  rgb(216, 191, 37, 0.4);
-    text-align: center;
-    padding: 8px;
 
-    font-size: 12px;
-    left: 210px;
-}
-p.professionText{
-    font-size: 10px;
-}
-p span.nameHeading{
-    font-size: 12px;
-    font-family: bowl;
-}
-/* ================ */}
 /* 
 =====================================================================================================================================================================
 =====================================================================================================================================================================
@@ -107,7 +115,7 @@ p span.nameHeading{
 
 /* // Extra small devices (portrait phones, less than 576px) */
 
-@media (min-width: 375px) and (max-width: 575.98px)  {
+@media (min-width: 375px) and (max-width: 575.98px) {
     .headerContainer {
         height: 50px;
         background-color: #d8bf25;
@@ -147,17 +155,16 @@ p span.nameHeading{
         color: whitesmoke;
         position: absolute;
         top: 170px;
-        border: 2px dashed  rgb(216, 191, 37, 0.4);
+        border: 2px dashed rgb(216, 191, 37, 0.4);
         text-align: center;
         padding: 8px;
-
         font-size: 12px;
         left: 210px;
     }
-    p.professionText{
+    p.professionText {
         font-size: 10px;
     }
-    p span.nameHeading{
+    p span.nameHeading {
         font-size: 12px;
         font-family: bowl;
     }
