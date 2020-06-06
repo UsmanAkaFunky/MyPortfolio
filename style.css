@@ -1,6 +1,6 @@
 /* background-color: #d8bf25; */
 
-/* background-color: #d8bf25; */
+/* background-color: rgb 216,191,37 */
 
 @font-face {
     font-family: "bowl";
@@ -62,13 +62,40 @@ body {
     /* About me section  */
     .aboutTextContainer {
         color: white;
-        margin: 2em 0px 0px 1em;
+        margin: 8px 0px 0px 0px;
     }
     .aboutTextContainer h1 {
-        font-size: xx-large;
+        font-size: x-large;
     }
     .aboutTextContainer p {
-        font-size: small;
+        font-size: 10px;
+    }
+    .nameContainer p.onlyA {
+        font-size: 180px;
+        position: absolute;
+        top: 70px;
+        color: rgba(163, 163, 163, 0.1);
+        font-family: aplha;
+        left: 250px;
+    }
+    div.statusContainer {
+        background-color: rgb(216, 191, 37, 0.1);
+        color: whitesmoke;
+        position: absolute;
+        top: 170px;
+        border: 2px dashed  rgb(216, 191, 37, 0.4);
+        text-align: center;
+        padding: 8px;
+
+        font-size: 12px;
+        left: 210px;
+    }
+    p.professionText{
+        font-size: 10px;
+    }
+    p span.nameHeading{
+        font-size: 12px;
+        font-family: bowl;
     }
     /* ================ */
 }
@@ -98,7 +125,6 @@ body {
         font-family: bowl;
         font-size: 20px;
     }
-    /* About Container Styling */
     /* About me section  */
     .aboutContainer img {
         position: absolute;
@@ -107,10 +133,15 @@ body {
     }
     .aboutTextContainer {
         color: white;
-        margin: 50% 0px;
+        margin: 20px 45%;
+    }
+    .aboutTextContainer h1 {
+        font-size: 30px;
+    }
+    .aboutTextContainer p {
+        font-size: small;
     }
     /* ================ */
-    /*  */
 }
 
 /* 
