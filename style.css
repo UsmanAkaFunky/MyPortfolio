@@ -1,3 +1,5 @@
+/* background-color: #d8bf25; */
+
 @font-face {
     font-family: "bowl";
     src: url(fonts/Bowlby_One_SC/BowlbyOneSC-Regular.ttf);
@@ -21,140 +23,56 @@ body {
     background-color: #0e0c0f !important;
 }
 
-.container {
-    margin: 0px !important;
+/* background-color: #d8bf25; */
+
+.activeBtn {
+    color: black !important;
 }
 
-.navButtons {
-    position: relative;
-    top: 50%;
-    margin: auto auto;
-    transform: translateY(-50%);
-    ;
-}
-
-#header {
-    height: 13vw;
-    width: 100vw;
-    background-color: #d8bf25;
-}
-
-.aboutMeBtn {
-    color: black;
-}
-
-.navButtons a p:hover, .navButtons a {
+.headerAnchors a:hover {
+    text-decoration: none;
     color: crimson !important;
-    text-decoration: none !important;
 }
 
-/* Section About Styling */
+/* 
+=====================================================================================================================================================================
+*/
 
-/* ======================================================================== About */
+/* // Extra small devices (portrait phones, less than 576px) */
 
-@media only screen and (max-width: 319.98px) {
-   
-}
-
-/* =================================================================================== down - 320px */
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 374.98px) {
-    /* Styles */
-}
-
-/* =================================================================================== 320 - 375px */
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 424.98px) {
-    /* Styles */
-}
-
-/* =================================================================================== 375 - 425px */
-
-@media only screen and (min-device-width: 425px) and (max-device-width: 575.98px) {
-    /* Styles */
-}
-
-/* =================================================================================== 425 - 576px */
-
-@media only screen and (min-device-width: 576px) and (max-width: 767.98px) {
-    /* Styles */
-}
-
-/* =================================================================================== 426 - 767px */
-
-@media only screen and (min-width: 768px) and (max-width: 991.98px) {}
-
-/* =================================================================================== 426 - 991px */
-
-@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
-
-    a p, .slash {
-        color: whitesmoke;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-family: bowl;
-        text-align: center;
-        font-size: 16px !important;
+@media (max-width: 575.98px) {
+    .headerContainer {
+        height: 50px;
+        background-color: #d8bf25;
+        ;
     }
-    .navButtons {
-        margin-top: 8px;
-        float: right;
-        margin-right: 100px;
-    }
-    .imgCoverDiv img {
-        width: 40vw;
-        position: absolute;
-        top: 6px;
-        left: 15px;
-    }
-    .nameProfDiv {
-        position: absolute;
-        top: 40vh;
-        left: 15px;
-        background-color: rgb(219, 191, 40, 0.3);
-        width: 40vw;
+    .headerAnchors a, .headerAnchors p {
         color: white;
+        font-family: bowl;
+        font-size: px;
     }
-    .nameText {
-        font-size: smaller !important;
+    .headerAnchors p {
+        color: white;
+        font-family: bowl;
+        font-size: 20px;
     }
-    .container1 {
-        position: absolute;
-        top: -15vh;
-        left: 45vw;
-        width: 50vw;
-        margin: 120px 10px;
-    }
-    .container1 p {
-        color: wheat;
-        font-size: xx-small !important;
-        text-align: justify;
-    }
-    .headingAboutMeText {
-        margin-left: 0px;
-        /* transform: rotate(90deg); */
-        font-size: large !important;
-        color: #d8bf25;
-        font-weight: bold;
-    }
-    .aText {
-        color: rgb(219, 191, 40, 0);
+    .headerAnchors{
+        text-align: right !important;
     }
 }
 
-/* =================================================================================== 992-1200px */
+/* // Small devices (landscape phones, 576px and up) */
 
-@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {}
 
-/* =================================================================================== 1200-1399px */
+/* // Medium devices (tablets, 768px and up) */
 
-@media only screen and (min-width: 1400px) and (max-width: 1599.99px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {}
 
-/* =================================================================================== 1400-1600px */
-@media only screen and (min-width: 1600px) {}
+/* // Large devices (desktops, 992px and up) */
 
-/* =================================================================================== From 1600px to all */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
 
-/* ====================================================================================================*/
+/* // Extra large devices (large desktops, 1200px and up) */
 
-/* ====================================================================================================*/
+@media (min-width: 1200px) {}
